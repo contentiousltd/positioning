@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contentious Positioning Framework</title>
+    <link rel="icon" href="https://contentious.ltd/wp-content/uploads/2023/08/contentious-monogram-1.svg" type="image/svg+xml">
     <style>
         body {
             font-family: bely, Georgia, serif;
@@ -146,6 +147,16 @@
     border-bottom: 1px solid rgba(64, 61, 59, 0.3);
     border-left: 1px solid rgba(64, 61, 59, 0.3);
 }
+
+        /* Enable horizontal scrolling on small screens */
+        @media screen and (max-width: 768px) {
+            body {
+                padding: 0;
+            }
+            .framework-grid {
+                overflow-x: auto;
+            }
+        }
     </style>
 </head>
 <body>
